@@ -13,7 +13,8 @@ module.exports = function(grunt) {
         ],
         dest: 'app/js/lib.js'
       }
-    }
+    },
+    
 
   });
 
