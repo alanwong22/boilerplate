@@ -1,0 +1,21 @@
+{
+  "name": "testBower",
+  "version": "0.0.0",
+  "authors": [
+    "Alan Wong"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "jquery": "~2.1.3",
+    "angular-route": "~1.3.15"
+  },
+  "description": "Testing Angular in Bower",
+  "main": "core.js"
+}
