@@ -4,7 +4,7 @@ angular.module('AppName',[
 .config(function ($routeProvider,$locationProvider) {
   $locationProvider.html5Mode({
     enabled: false,
-    requireBase: false
+    requireBase: false 
   });
   $routeProvider
     .when('/', {
@@ -15,3 +15,4 @@ angular.module('AppName',[
       redirectTo: '/'
     });
 })
+
